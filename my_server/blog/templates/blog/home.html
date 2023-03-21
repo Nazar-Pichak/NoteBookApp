@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>The public Note Book of Python idioms and programming therms.</h1>
+    <div class="content">
+        {% for post in posts %}
+            <h2>{{ post.title }}</h2>
+	        <p>{{ post.content }}</p>
+            <small>Published on {{post.published_at | date:"M d, Y"}} by {{ post.author | title }}</small>
+            {% if request.user.is_authenticated and request.user == post.author %}
+                <p>
+                    <a class="links" href="{% url 'post-edit' post.id %}">Edit</a>
+                    <a class="links" id="delete-link" href="{% url 'post-delete' post.id %}">Delete</a>
+                </p>
+                <hr>
+            {% else %}
+                <hr>
+            {% endif %}
+        {% endfor %}
+        
+    </div>
+{% endblock content %}
