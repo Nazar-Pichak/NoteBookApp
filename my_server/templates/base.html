@@ -1,0 +1,70 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine" />
+    <link href="https://fonts.googleapis.com/css2?family=Anton" />
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
+    <script src="{% static 'js/app.js' %}" defer></script>
+    <title>Note Book</title>
+</head>
+
+<body>
+    <header>
+        {%if request.user.is_authenticated %}
+            <div class="container-one">
+                <p><a class="links" id='all-posts-link' href="{% url 'posts' %}">All Posts</a></p>
+            </div>
+            <div class="container-two">
+                <p><a class="links" id="newpost-link" href="{% url 'post-create' %}">New Post</a></p>
+            </div>
+            <div class="container-three">
+                <p><a class="links" id="about-link" href="{% url 'about' %}">About Us</a></p>
+            </div>
+            <div class="container-four">
+                <p><a class="links" id="greeting" href="{% url 'logout' %}">Logout</a>&nbsp;&nbsp;&nbsp;Hello {{request.user.username | title}}, write your note.</p>
+            </div>
+        {%else%}
+            <div class="container-five">
+                <p><a class="links" id="all-posts-link" href="{% url 'posts' %}">All Posts</a></p>
+            </div>
+            <div class="container-six">
+                <p><a class="links" id="login-link" href="{% url 'login' %}">Login</a></p>
+            </div>
+            <div class="container-seven">
+                <p><a class="links" id="register-link" href="{% url 'register' %}">Register</a></p>
+            </div>
+            <div class="container-eight">
+                <p><a class="links" id="about-link" href="{% url 'about' %}">About Us</a></p>
+            </div>
+            <!-- <a class="links" href="{% url 'admin' %}">Admin</a> -->
+        {%endif%}
+    </header>
+
+    <main>
+        {% if messages %}
+        <div class="messages">
+            {% for message in messages %}
+            <div class="alert {% if message.tags %} alert-{{ message.tags }}" {% endif %}>
+                {{message}}
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+        <hr>
+        {%block content%} 
+        {%endblock content%}
+    </main>
+
+    <footer>
+        <div class="copy-right">
+            <p class="p">&copy; Copyright {% now "Y" %} by <a class="links" href="https://www.pythontutorial.net">Python Tutorial and Nazar Pichak</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>

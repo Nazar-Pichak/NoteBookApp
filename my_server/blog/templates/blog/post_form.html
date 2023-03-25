@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>{% if id %} Edit {% else %} New {% endif %} Post</h1>
+    <div class="forms">
+        <form method="post">
+            {% csrf_token %}
+            {{form.as_p}}<br>
+            <input type="submit" size="30" value="Save"/>
+        </form>
+    </div>
+{% endblock content %}
+
