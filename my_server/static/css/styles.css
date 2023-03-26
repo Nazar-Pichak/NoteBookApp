@@ -16,12 +16,12 @@ form {
 	padding-right: 20px;
 	padding-top: 20px;
 	padding-bottom: 20px
-	
+
 }
 
 label, input, textarea, select {
 	display:block;
-	width:100%;	
+	width:100%;
 }
 
 input[type="submit"] {
@@ -60,7 +60,7 @@ button[type='submit'] {
 }
 
 .alert {
-	padding:0.5rem;	
+	padding:0.5rem;
 }
 
 .alert-success {
@@ -73,13 +73,13 @@ button[type='submit'] {
 	color:red;
 }
 
-html {
-	height: 100%;
-}
+/*html {*/
+	/*height: 100%;*/
+/*}*/
 
 body {
-	display: grid;
-	height: 100%;
+	/*display: grid;*/
+	/*height: 100%;*/
 	margin-left: 25px;
 	margin-right: 25px;
 	margin-top: 25px;
@@ -104,17 +104,17 @@ header {
 		border: 1px solid black;
 		background-image: url('/static/images/shutterstock577495939.jpg');
 		background-position: center;
-		
+
 	}
 
 	#about-link {
 		margin-left: 10px;
 	}
-	
+
 	#newpost-link {
 		margin-left: 10px;
 	}
-	
+
 	#register-link {
 		margin-left: 10px;
 	}
@@ -129,10 +129,10 @@ header {
 
 	#greeting {
 		margin-left: 10px;
-		
+
 	}
-	
-		
+
+
 }
 
 main {
@@ -185,13 +185,13 @@ footer {
 	font-family: 'Anton', sans-serif ;
 	color: black;
 	background-color: hsl(0, 0%, 67%);
-	
+
 }
 
 .forms {
 	border: 1px solid black;
 	background-color: #aaa;
-	
+
 }
 
 .copy-right p {
