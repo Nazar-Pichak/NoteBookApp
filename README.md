@@ -13,14 +13,15 @@ Likewise, [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) and [CSS](ht
 - Supporting simple registration and login forms.
 - Hide admin page.
 - Storing data into database.
-# The project is useful:
+
+# The project is useful
 - For exploring and studying, especially for beginners.
 - For modifying and improvements.
 
 # To start with this app
 - you can simply clone this repo and run on your local machine.
 
-# To find useful info:
+# To find useful info
 - follow this [tutorial](https://www.pythontutorial.net/django-tutorial/) and [Django](https://docs.djangoproject.com/) documentation as well.
 
 # The app lives by following
