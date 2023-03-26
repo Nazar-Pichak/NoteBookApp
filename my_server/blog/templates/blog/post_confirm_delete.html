@@ -7,7 +7,7 @@
             {% csrf_token %}
             <p>Are you sure that you want to delete the post "{{post.title}}"?</p>
             <div>
-                <button type="submit">Yes, delete</button>
+                <button type="submit">Delete</button>
                 <a class="links" id="cencel-link" href="{% url 'posts' %}">Cancel</a>
             </div>
         </form>

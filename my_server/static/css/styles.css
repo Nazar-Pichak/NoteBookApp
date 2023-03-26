@@ -73,13 +73,13 @@ button[type='submit'] {
 	color:red;
 }
 
-/*html {*/
-	/*height: 100%;*/
-/*}*/
+html {
+	height: 100%;
+}
 
 body {
-	/*display: grid;*/
-	/*height: 100%;*/
+	display: grid;
+	height: 100%;
 	margin-left: 25px;
 	margin-right: 25px;
 	margin-top: 25px;
@@ -147,8 +147,8 @@ footer {
 	margin-right: 25px;
 	margin-top: 5px;
 	margin-bottom: 25px;
-	border: 1px solid black;
-	background-color: hsl(0, 0%, 67%);
+	/*border: 1px solid black;*/
+	/*background-color: hsl(0, 0%, 67%);*/
 }
 
 .links {
