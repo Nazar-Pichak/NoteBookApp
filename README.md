@@ -19,7 +19,8 @@ Likewise, [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) and [CSS](ht
 - For modifying and improvements.
 
 # To start with this app
-- you can simply clone this repo and run on your local machine.
+- you can simply clone this repo and run on your local machine
+- or on your web server.
 
 # To find useful info
 - follow this [tutorial](https://www.pythontutorial.net/django-tutorial/) and [Django](https://docs.djangoproject.com/) documentation as well.
