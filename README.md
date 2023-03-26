@@ -5,8 +5,8 @@
 
 The NoteBook is a simple web-app based on Django web-framework,
 which created by following a [tutorial](https://www.pythontutorial.net/django-tutorial/)
-and exploring Django features. Also here were applied some basic concepts such as [MVT](https://www.javatpoint.com/django-mvt) function-based pattern, user-authentication and storing data into built-in Django database sqlite3. 
-Likewise, [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) and [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) are fundamental and inregrational parts of this app.   
+and exploring Django features. Also here were applied some basic concepts such as [MVT](https://www.javatpoint.com/django-mvt) function-based pattern, user-authentication and storing data into built-in Django database sqlite3.
+Likewise, [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) and [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) are fundamental and inregrational parts of this app.
 # The app can does:
 
 - Storing, deleting and editing unique user's notations about programming experience.
@@ -22,3 +22,7 @@ Likewise, [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) and [CSS](ht
 
 # To find useful info:
 - follow this [tutorial](https://www.pythontutorial.net/django-tutorial/) and [Django](https://docs.djangoproject.com/) documentation as well.
+
+# The app lives by following:
+- [NoteBookApp](http://nazar2022.pythonanywhere.com/)
+
