@@ -75,11 +75,10 @@ button[type='submit'] {
 
 html {
 	height: 100%;
+	display: grid;
 }
 
 body {
-	display: grid;
-	height: 100%;
 	margin-left: 25px;
 	margin-right: 25px;
 	margin-top: 25px;
@@ -140,6 +139,11 @@ main {
 	margin-right: 25px;
 	margin-top: 25px;
 	margin-bottom: 25px;
+}
+
+.greeting {
+	color: brown;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 footer {

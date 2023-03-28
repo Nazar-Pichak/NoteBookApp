@@ -26,7 +26,7 @@
                 <p><a class="links" id="about-link" href="{% url 'about' %}">About Us</a></p>
             </div>
             <div class="container-four">
-                <p><a class="links" id="greeting" href="{% url 'logout' %}">Logout</a>&nbsp;&nbsp;&nbsp;Hello {{request.user.username | title}}, write your note.</p>
+                <p class='greeting'><a class="links" id="greeting" href="{% url 'logout' %}">Logout</a>&nbsp;&nbsp;&nbsp;Hello {{request.user.username | title}}, write your note.</p>
             </div>
         {% else %}
             <div class="container-five">
