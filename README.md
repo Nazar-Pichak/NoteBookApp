@@ -26,5 +26,5 @@ Likewise, [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) and [CSS](ht
 - follow this [tutorial](https://www.pythontutorial.net/django-tutorial/) and [Django](https://docs.djangoproject.com/) documentation as well.
 
 # The app lives by following
-- [NoteBookApp](http://nazar2022.pythonanywhere.com/)
+- [NoteBookApp](http://notebookapp-nazar2022.pythonanywhere.com/)
 
